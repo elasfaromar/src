@@ -10,8 +10,12 @@ html,body{
     margin: 0;
   }
 
-
-  #name{
+    audio{
+    opacity: 0;
+    position: absolute;
+  }
+      
+    #name{
     color: azure;
     position: absolute;
     left: 45vw;
