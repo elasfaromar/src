@@ -9,16 +9,16 @@ html,body{
     overflow: hidden;
     margin: 0;
   }
-
-    audio{
-    opacity: 0;
+    
+  audio{ 
     position: absolute;
+    opacity: 0;
   }
-      
-    #name{
+    
+  #name{
     color: azure;
     position: absolute;
-    left: 45vw;
+    left: 48vw;
     top: 49vh;
     display: flex;
     flex-direction: column;
@@ -35,6 +35,19 @@ html,body{
     animation-iteration-count: infinite;
   }
   
+  input{
+    display: flex;
+    position: relative;
+    padding: 0;
+    margin: auto;
+    width: min-content;
+    font-size: larger;
+    padding: 1%;
+    background-color:azure;
+    border-radius: 6%;
+    opacity: 10%;
+  }
+
   .bg_heart {
       position: relative;
       top: 0;
